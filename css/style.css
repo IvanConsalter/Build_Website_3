@@ -1,0 +1,88 @@
+/* GLOABAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.highlight {
+    color: #ec1111;
+    font-weight: bold;
+}
+
+.btn-1 {
+    height: 2.5rem;
+    background-color: #ec1111;
+    border: none;
+    padding: 0 1.2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.dark {
+    padding: 1rem;
+    background-color: #354249;
+    color: #fff;
+    margin: 0.6rem 0;
+}
+
+/* HEADER */
+header {
+    background-color: #354249;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    font-size: 2.2rem;
+}
+
+.header-content ul {
+    display: flex;
+}
+
+.header-content li + li {
+    margin: 0 0.5rem;
+}
+
+.header-content ul a {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.header-content ul .current a {
+    color: #ec1111;
+    font-weight: bold;
+}
+
+.header-content a:hover {
+    color: #ccc;
+    font-weight: bold;
+}

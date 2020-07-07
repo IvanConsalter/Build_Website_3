@@ -51,6 +51,8 @@ li {
 header {
     background-color: #354249;
     color: #fff;
+    padding: 1rem 0;
+    border-bottom: 3px solid #ec1111;
 }
 
 .header-content {
@@ -107,4 +109,24 @@ header {
 
 .showcase p {
     font-size: 1.2rem;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background-color: #354249;
+    padding: 1.5rem 0;
+    color: #fff;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-content input {
+    height: 2.5rem;
+    width: 250px;
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
 }

@@ -220,3 +220,45 @@ footer a {
 footer a:hover {
     background-color: #ec1111;
 }
+
+@media (max-width: 770px) {
+    .header-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-content nav {
+        margin: 1rem 0;
+    }
+
+    .showcase h1 {
+        font-size: 2.8rem;
+    }
+
+    .newsletter-content {
+        flex-direction: column;
+    }
+
+    .newsletter-content form {
+        margin: 1rem 0;
+    }
+
+    .about-content,
+    .services-content {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    .header-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .showcase h1 {
+        font-size: 2rem;
+    }
+
+    .newsletter-content .btn-1 {
+        margin-top: 1rem;
+    }
+}
